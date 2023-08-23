@@ -73,7 +73,7 @@
 
   <compset>
     <alias>B2000NEMO</alias>
-    <lname>2000_CAM60_CLM50%SP_CICE_NEMO_RTM_SGLC_SWAV</lname>
+    <lname>2000_CAM60_CLM45%SP_CICE_NEMO_RTM_SGLC_SWAV</lname>
   </compset>
 
   <compset>
@@ -83,62 +83,62 @@
 
   <compset>
     <alias>BHISTNEMO</alias>
-    <lname>HIST_CAM60_CLM50%BGC-CROP_CICE_NEMO_MOSART_SGLC_SWAV</lname>
+    <lname>HIST_CAM60_CLM51%BGC-CROP_CICE_NEMO_HYDROS_SGLC_SWAV</lname>
   </compset>
 
   <compset>
     <alias>BWHISTNEMO</alias>
-    <lname>HIST_CAM60%WCTS_CLM50%BGC-CROP_CICE_NEMO_MOSART_SGLC_SWAV</lname>
+    <lname>HIST_CAM60%WCTS_CLM51%BGC-CROP_CICE_NEMO_HYDROS_SGLC_SWAV</lname>
   </compset>
 
   <compset>
     <alias>BWmaHISTNEMO</alias>
-    <lname>HIST_CAM60%WCCM_CLM50%BGC-CROP_CICE_NEMO_MOSART_SGLC_SWAV</lname>
+    <lname>HIST_CAM60%WCCM_CLM51%BGC-CROP_CICE_NEMO_HYDROS_SGLC_SWAV</lname>
   </compset>
 
   <compset>
     <alias>BCM1850sp</alias>
-    <lname>1850_CAM60%WCSC_CLM50%SP_CICE_NEMO_MOSART_SGLC_SWAV</lname>
+    <lname>1850_CAM60%WCSC_CLM51%SP_CICE_NEMO_HYDROS_SGLC_SWAV</lname>
   </compset>
 
   <compset>
     <alias>BCM1850b</alias>
-    <lname>1850_CAM60%WCSC_CLM50%BGC_CICE_NEMO_MOSART_SGLC_SWAV</lname>
+    <lname>1850_CAM60%WCSC_CLM51%BGC_CICE_NEMO_HYDROS_SGLC_SWAV</lname>
   </compset>
 
   <compset>
     <alias>BCM1850bc</alias>
-    <lname>1850_CAM60%WCSC_CLM50%BGC-CROP_CICE_NEMO_MOSART_SGLC_SWAV</lname>
+    <lname>1850_CAM60%WCSC_CLM51%BGC-CROP_CICE_NEMO_HYDROS_SGLC_SWAV</lname>
   </compset>
 
   <compset>
     <alias>BCM2000sp</alias>
-    <lname>2000_CAM60%WCSC_CLM50%SP_CICE_NEMO_MOSART_SGLC_SWAV</lname>
+    <lname>2000_CAM60%WCSC_CLM51%SP_CICE_NEMO_HYDROS_SGLC_SWAV</lname>
   </compset>
 
   <compset>
     <alias>BCM2000b</alias>
-    <lname>2000_CAM60%WCSC_CLM50%BGC_CICE_NEMO_MOSART_SGLC_SWAV</lname>
+    <lname>2000_CAM60%WCSC_CLM51%BGC_CICE_NEMO_HYDROS_SGLC_SWAV</lname>
   </compset>
 
   <compset>
     <alias>BCM2000bc</alias>
-    <lname>2000_CAM60%WCSC_CLM50%BGC-CROP_CICE_NEMO_MOSART_SGLC_SWAV</lname>
+    <lname>2000_CAM60%WCSC_CLM51%BGC-CROP_CICE_NEMO_HYDROS_SGLC_SWAV</lname>
   </compset>
 
   <compset>
     <alias>BCMHISTsp</alias>
-    <lname>HIST_CAM60%WCSC_CLM50%SP_CICE_NEMO_MOSART_SGLC_SWAV</lname>
+    <lname>HIST_CAM60%WCSC_CLM51%SP_CICE_NEMO_HYDROS_SGLC_SWAV</lname>
   </compset>
 
   <compset>
     <alias>BCMHISTb</alias>
-    <lname>HIST_CAM60%WCSC_CLM50%BGC_CICE_NEMO_MOSART_SGLC_SWAV</lname>
+    <lname>HIST_CAM60%WCSC_CLM51%BGC_CICE_NEMO_HYDROS_SGLC_SWAV</lname>
   </compset>
 
   <compset>
     <alias>BCMHISTbc</alias>
-    <lname>HIST_CAM60%WCSC_CLM50%BGC-CROP_CICE_NEMO_MOSART_SGLC_SWAV</lname>
+    <lname>HIST_CAM60%WCSC_CLM51%BGC-CROP_CICE_NEMO_HYDROS_SGLC_SWAV</lname>
   </compset>
 
 

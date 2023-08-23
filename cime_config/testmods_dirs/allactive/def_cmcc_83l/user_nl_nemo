@@ -1,0 +1,23 @@
+!----------------------------------------------------------------------------------
+! Users should add all user specific namelist changes after these comments 
+!
+! *** DO NOT CHANGE cn_exp, nn_it000, nn_itend, ndate0 (modified run-time by nemo.buildinml.sh)
+!
+! Since several variable names are identical in NEMO namelists, the following structure
+! must be used to univocally identify the variable name and its reference namelist:
+!
+! &namctl
+!    ln_ctl      = .false.     !  trends control print (expensive!)
+! /
+! &nammpp        !   Massively Parallel Processing
+!    jpni        =    15    !  jpni   number of processors following i (set automatically if < 1)
+!    jpnj        =    20    !  jpnj   number of processors following j (set automatically if < 1)
+!    jpnij       =    256    !  jpnij  number of local domains (set automatically if < 1)
+! /
+! 
+! IMPOTANT: Changes apply to namelist_cfg & namelist_top_cfg, if a user defined parameter 
+! is not contained in these files substitution will NOT occur!
+!
+! To preview the namelists, invoke $CASEROOT preview-namelists and look at 
+!    $CASEROOT/CaseDocs/nemo_in
+!----------------------------------------------------------------------------------
