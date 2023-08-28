@@ -1,17 +1,5 @@
 ./xmlchange RUN_STARTDATE=0001-01-01
 ./xmlchange CAM_CONFIG_OPTS="-phys cam_dev -chem waccm_sc_mam4 -nlev 83"
 ./xmlchange ROF_NCPL=8
-./xmlchange NTASKS_OCN=848
-./xmlchange NTASKS_ATM=864
-./xmlchange NTASKS_CPL=864
-./xmlchange NTASKS_ICE=864
-./xmlchange NTASKS_ROF=864
-./xmlchange NTASKS_LND=864
-./xmlchange NTASKS_WAV=1
-./xmlchange NTASKS_GLC=1
-./xmlchange NTASKS_ESP=1
-./xmlchange ROOTPE_ROF=0
-./xmlchange ROOTPE_ICE=0
-./xmlchange ROOTPE_OCN=0
 ./xmlchange CLM_FORCE_COLDSTART=off
 
