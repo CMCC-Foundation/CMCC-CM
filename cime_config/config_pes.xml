@@ -1628,8 +1628,8 @@
 	<ntasks>
 	  <ntasks_atm>864</ntasks_atm>
 	  <ntasks_lnd>360</ntasks_lnd>
-	  <ntasks_rof>144</ntasks_rof>
-	  <ntasks_ice>360</ntasks_ice>
+	  <ntasks_rof>72</ntasks_rof>
+	  <ntasks_ice>432</ntasks_ice>
 	  <ntasks_ocn>848</ntasks_ocn>
 	  <ntasks_glc>1</ntasks_glc>
 	  <ntasks_wav>1</ntasks_wav>
@@ -1648,7 +1648,7 @@
 	<rootpe>
 	  <rootpe_atm>0</rootpe_atm>
 	  <rootpe_lnd>0</rootpe_lnd>
-	  <rootpe_rof>720</rootpe_rof>
+	  <rootpe_rof>792</rootpe_rof>
 	  <rootpe_ice>360</rootpe_ice>
 	  <rootpe_ocn>0</rootpe_ocn>
 	  <rootpe_glc>0</rootpe_glc>

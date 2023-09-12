@@ -2,4 +2,5 @@
 ./xmlchange CAM_CONFIG_OPTS="-phys cam_dev -chem waccm_sc_mam4 -nlev 83"
 ./xmlchange ROF_NCPL=8
 ./xmlchange CLM_FORCE_COLDSTART=off
+./xmlchange JOB_QUEUE=p_medium
 
