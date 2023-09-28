@@ -1,0 +1,41 @@
+ncdata = '$DIN_LOC_ROOT/atm/cam/inic/fv/cami_0000-01-01_0.47x0.63_L83_c230109.nc'
+effgw_beres_dp         = 0.90D0
+gw_qbo_hdepth_scaling  = 0.25D0
+qbo_use_forcing        = .false.
+frontgfc               = 2.7D-15
+taubgnd                = 2.5D-3
+effgw_rdg_beta = 0.75D0
+effgw_rdg_beta_max = 0.75D0
+tau_0_ubc=.true.
+ubc_specifier = 'Q->2.d-10vmr'
+gw_apply_tndmax          = .false.
+gw_limit_tau_without_eff = .true.
+gw_lndscl_sgh            = .false.
+gw_oro_south_fac         = 2.d0
+do_circulation_diags=.true.
+fv_nsplit   =            18
+fv_nspltrac =            9
+fv_nspltvrm =            9
+fv_filtcw = 1
+mfilt=1
+nhtfrq = -24
+avgflag_pertape='A'
+empty_htapes=.true.,
+history_aero_optics  =.true.,
+fexcl1=''
+fincl1 = 'AODVIS','BURDENSEASALTdn', 'BURDENBCdn', 'BURDENSOAdn', 'BURDENPOMdn',
+         'CLDTOT','LHFLX','SHFLX','QREFHT','PRECT','PS',
+         'PSL','FLDS','FLNS','FLUT','FLUTC','FSDS','FSNTOA','FSNS',
+         'FSUTOA','FSNTOAC','U10','TREFHT',
+         'TAUX','TAUY','TS','VBOT',
+         'OMEGA925','OMEGA850','OMEGA500','OMEGA250',
+         'Q925','Q850','Q500','Q250',
+         'T925','T850','T500','T250',
+         'U925','U850','U500','U250',
+         'V925','V850','V500','V250',
+         'Z925','Z850','Z500','Z250',
+         'LANDFRAC','PHIS', 'CLDICE', 'T', 'U', 'V', 'Z3', 'CLDLIQ',
+         'CLDLOW', 'CLDMED', 'CLDHGH', 'EFFCLD', 'FLNT',
+         'FSNT', 'ICEFRAC', 'RHREFHT', 'UBOT', 'VBOT', 'PSL', 'SST',
+         'TMQ', 'QFLX',
+         'SWCF','LWCF'

@@ -205,4 +205,36 @@
       <option name="wallclock">  00:30:00 </option>
     </options>
   </test>
+  <test name="ERR_Ld5" grid="f05_n0253" compset="BCM2000bc" testmods="allactive/def_cmcc_83l">
+    <machines>
+      <machine name="juno" compiler="intel" category="cpl_cmcc"/>
+    </machines>
+    <options>
+      <option name="wallclock">  01:30:00 </option>
+    </options>
+  </test>
+  <test name="ERR_Ld5" grid="f05_n0253" compset="BCM2000bc" testmods="allactive/def_cmcc_83l">
+    <machines>
+      <machine name="juno" compiler="intel" category="cpl_cmcc"/>
+    </machines>
+    <options>
+      <option name="wallclock">  01:30:00 </option>
+    </options>
+  </test>
+  <test name="PFS" grid="f05_n0253" compset="BCM2000bc" testmods="allactive/def_cmcc_83l">
+    <machines>
+      <machine name="juno" compiler="intel" category="perf_cmcc"/>
+    </machines>
+    <options>
+      <option name="wallclock">  02:50:00 </option>
+    </options>
+  </test>
+  <test name="PFS" grid="f05_n0253" compset="BCM2000bc" testmods="allactive/perf_cmcc_83l">
+    <machines>
+      <machine name="juno" compiler="intel" category="perf_cmcc"/>
+    </machines>
+    <options>
+      <option name="wallclock">  02:50:00 </option>
+    </options>
+  </test>
 </testlist>
