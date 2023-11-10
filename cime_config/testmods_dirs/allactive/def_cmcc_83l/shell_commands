@@ -3,4 +3,5 @@
 ./xmlchange ROF_NCPL=8
 ./xmlchange CLM_FORCE_COLDSTART=off
 ./xmlchange JOB_QUEUE=p_medium
+./xmlchange PIO_STRIDE=18
 
